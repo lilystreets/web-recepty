@@ -3,7 +3,7 @@
 html, body {
     color: #3a3a3a;
     box-sizing: border-box;
-    font-family: "Quicksand", sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 16px;
 }
 
@@ -117,14 +117,14 @@ nav {
 }
 
 li.highlight {
-    background: #e37784;
-    background-image: linear-gradient(77deg, #be5663, transparent);
+    margin-left: 15px;
+    background: #be5663;
 }
 
 li.highlight:focus,
 li.highlight:hover,
 li.highlight:active {
-    background-image: none;
+    opacity: .7;
 }
 
 .highlight a,
@@ -148,7 +148,7 @@ li.highlight:active {
 }
 
 .first-section-wrapper {
-    max-width: 635px;
+    max-width: 730px;
     display: flex;
     flex-direction: column;
     padding-left: 4%;
