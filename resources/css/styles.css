@@ -12,6 +12,11 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 1.1;
 }
 
+h2 {
+    font-family: "DM Serif Display", serif;
+    font-size: 2.5rem;
+}
+
 .container::before,
 .group::before,
 .container::after,
@@ -84,14 +89,14 @@ nav {
 }
 
 .logo {
-    margin-top: 0.8em;
+    margin-top: 0.7em;
     font-family: "DM Serif Display", serif;
-    font-size: 1.7rem;
+    font-size: 1.9rem;
     text-transform: uppercase;
 }
 
 .logo a {
-    color: #5c5c5c;
+    color: #3a3a3a;
 }
 
 .logo a:hover {
@@ -267,10 +272,10 @@ p.first-p {
 }
 
 
-/* Recipes section*/
+/* RECIPES SECTION*/
 
 .recipes {
-    padding: 10% 5% 8%;
+    padding: 15% 5% 8%;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
@@ -281,10 +286,6 @@ p.first-p {
     align-content: stretch;
     align-items: center;
     flex-direction: row;
-}
-
-.recipes-preview a {
-    flex-basis: 23%;
 }
 
 .recipes-preview .badge {
