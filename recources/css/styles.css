@@ -47,10 +47,14 @@ a:hover {
 }
 
 .container {
-    height: 70px;
+    height: auto;
     max-width: 1400px;
     margin: 0 auto;
     padding: 0 4em;
+}
+
+.container.left {
+    margin: 0;
 }
 
 .logo-wrapper {
@@ -144,14 +148,14 @@ li.highlight:active {
 }
 
 .first-section-wrapper {
+    max-width: 635px;
     display: flex;
     flex-direction: column;
-    width: 50%;
     padding-left: 4%;
 }
 
 span.big {
-    font-size: 9.5rem;
+    font-size: 9rem;
     line-height: 0.9;
     font-weight: 900;
     color: #be5663;
