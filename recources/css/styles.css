@@ -39,7 +39,7 @@ a:hover {
 /* Navigation */
 .nav-bar {
     width: 100%;
-    height: 60px;
+    height: 70px;
     position: fixed;
     z-index: 1;
     background: white;
@@ -47,7 +47,7 @@ a:hover {
 }
 
 .container {
-    height: 60px;
+    height: 70px;
     max-width: 1400px;
     margin: 0 auto;
     padding: 0 4em;
@@ -62,15 +62,14 @@ nav {
 }
 
 .logo {
-    max-width: 160px;
-    margin-top: 0.2em;
+    margin-top: 0.8em;
     font-family: "DM Serif Display", serif;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     text-transform: uppercase;
 }
 
 .logo a {
-    color: #3a3a3a;
+    color: #5c5c5c;
 }
 
 .logo a:hover {
@@ -80,7 +79,7 @@ nav {
 
 .navigation {
     display: flex;
-    margin-top: 0.7em;
+    margin-top: 1em;
 }
 
 .navigation ul {
@@ -89,8 +88,8 @@ nav {
 
 .navigation li {
     display: block;
-    padding: 10px;
-    margin-left: 15px;
+    padding: 10px 15px;
+    margin-left: 5px;
     border-radius: 50px;
     transition: 0.5s ease-out;
 }
@@ -108,8 +107,27 @@ nav {
     font-weight: 500;
 }
 
-.navigation a:hover {
+.navigation a:hover,
+.navigation a:focus {
     color: #be5663;
+}
+
+li.highlight {
+    background: #e37784;
+    background-image: linear-gradient(77deg, #be5663, transparent);
+}
+
+li.highlight:focus,
+li.highlight:hover,
+li.highlight:active {
+    background-image: none;
+}
+
+.highlight a,
+.highlight a:hover,
+.highlight a:focus,
+.highlight a:active {
+    color: #fff;
 }
 
 /* First section*/
