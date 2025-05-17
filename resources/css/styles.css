@@ -70,10 +70,9 @@ a:hover {
 }
 
 .container {
+    padding: 0 4.1em;
     height: auto;
-    max-width: 1400px;
-    margin: 0 auto;
-    padding: 0 4em;
+    max-width: 1750px;
 }
 
 .container.left {
@@ -275,7 +274,7 @@ p.first-p {
 /* RECIPES SECTION*/
 
 .recipes {
-    padding: 15% 5% 8%;
+    padding: 10% 5% 8%;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
