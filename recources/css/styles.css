@@ -75,6 +75,7 @@ nav {
 
 .logo a:hover {
     text-decoration: none;
+    font-weight: normal;
 }
 
 .navigation {
@@ -90,13 +91,14 @@ nav {
     display: block;
     padding: 10px;
     margin-left: 10px;
-    background: #ffffff;
     border-radius: 50px;
     transition: 0.5s ease-out;
 }
 
-.navigation li:hover {
-    background: #e2e2e2;
+.navigation li:focus, 
+.navigation li:active {
+    color: #fff;
+    background: #be5663;
 }
 
 .navigation a {
@@ -104,6 +106,10 @@ nav {
     color: #3a3a3a;
     text-decoration: none;
     font-weight: 500;
+}
+
+.navigation a:hover {
+    color: #be5663;
 }
 
 /* First section*/
