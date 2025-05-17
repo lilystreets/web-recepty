@@ -90,7 +90,7 @@ nav {
 .navigation li {
     display: block;
     padding: 10px;
-    margin-left: 10px;
+    margin-left: 15px;
     border-radius: 50px;
     transition: 0.5s ease-out;
 }
@@ -102,7 +102,7 @@ nav {
 }
 
 .navigation a {
-    font-size: .95rem;
+    font-size: .9rem;
     color: #3a3a3a;
     text-decoration: none;
     font-weight: 500;
