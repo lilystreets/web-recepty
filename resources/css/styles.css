@@ -59,7 +59,14 @@ a:focus {
     width: 100%;
 }
 
+@media only screen and (max-width:748px) {
+    h2 {
+    font-size: 3rem;
+}
+}
+
 /* NAVIGATION */
+
 .nav-bar {
     width: 100%;
     height: 70px;
@@ -137,14 +144,14 @@ nav {
     color: #be5663;
 }
 
-li.highlight {
+.highlight {
     margin-left: 15px;
     background: #be5663;
 }
 
-li.highlight:focus,
-li.highlight:hover,
-li.highlight:active {
+.highlight:focus,
+.highlight:hover,
+.highlight:active {
     opacity: .7;
 }
 
@@ -153,6 +160,40 @@ li.highlight:active {
 .highlight a:focus,
 .highlight a:active {
     color: #fff;
+}
+
+.nav-mobile {
+    display: block;
+    background: #be5663;
+    width: 45px;
+    height: 45px;
+    padding: 15px;
+    position: relative;
+    top: 0.8em;
+    border-radius: 50%;
+}
+
+.nav-mobile i {
+    color: #fff;
+}
+
+@media only screen and (max-width:1010px) {
+    .navigation {
+    display: none;
+    }
+}
+
+@media only screen and (min-width:1010px) {
+    .nav-mobile {
+    display: none;
+    }
+}
+
+@media only screen and (max-width:748px) {
+    .logo {
+    margin-top: 0.8em;
+    font-size: 1.7rem;
+    }
 }
 
 /* FIRST SECTION */
@@ -174,7 +215,7 @@ li.highlight:active {
     flex-direction: column;
 }
 
-span.big {
+.big {
     font-size: 9.5rem;
     line-height: 0.9;
     font-weight: 900;
@@ -189,10 +230,18 @@ span.big {
     color: transparent;
 }
 
-p.first-p {
+.first-p {
     max-width: 630px;
     margin-bottom: 3rem;
     font-size: 1.1rem;
+    text-shadow: 1px 1px 0px #efebee;
+}
+
+@media only screen and (max-width:748px) {
+    .big {
+    font-size: 5.5rem;
+    margin-top: 5rem;
+    }
 }
 
 /* MINI RECIPES*/
@@ -273,6 +322,24 @@ p.first-p {
     color: grey;
 }
 
+@media only screen and (max-width:748px) {
+    .mini-recipes .text {
+    font-size: 0.8rem;
+    }
+    .mini-recipes .badge {
+    height: 19px;
+    }
+}
+
+@media only screen and (max-width:360px) {
+    .mini-recipes a {
+    padding: 0;
+    }
+}
+
+
+
+
 /* FILTER SECTION*/
 
 #filter {
@@ -317,7 +384,7 @@ p.first-p {
 
 #filter i {
     color: #be5663;
-    margin-right: 5px;
+    margin-right: 7px;
 }
 
 #filter .selected {
@@ -344,7 +411,7 @@ p.first-p {
 }
 
 .recipes {
-    padding: 12% 0 10%;
+    padding: 16% 0 10%;
 }
 
 .recipes-items {
@@ -364,6 +431,16 @@ p.first-p {
 .recipes-preview .badge {
     margin-right: 2px;
 }
+
+@media only screen and (max-width:748px) {
+    .recipes h4 {
+    font-size: 1.1rem;
+    }
+    .recipes-preview .info-underline {
+    font-size: 0.8rem;
+    }
+}
+
 
 /* FOOTER */
 
@@ -408,6 +485,20 @@ footer li::after {
 
 footer li:last-child::after {
     content: '';
+}
+
+@media only screen and (max-width:748px) {
+    footer p {
+    font-size: 1.5rem;
+    }
+    footer .menu {
+    float: left;
+    font-size: 1rem;
+    flex-wrap: wrap;
+    }
+    .nav-footer li {
+    margin-bottom: 10px;
+    }
 }
 
 
