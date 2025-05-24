@@ -414,9 +414,18 @@ nav {
     padding: 16% 0 10%;
 }
 
+.recipes.full-list {
+    padding: 12% 0 10%;
+}
+
 .recipes-items {
     border-top: 1px solid #e2e2e2;
     padding-top: 2em;
+}
+
+.recipes-items.full-list {
+    border-top: none;
+    padding-top: 0;
 }
 
 .recipes-preview {
@@ -438,6 +447,9 @@ nav {
     }
     .recipes-preview .info-underline {
     font-size: 0.8rem;
+    }
+    .recipes.full-list {
+    padding-top: 8em;
     }
 }
 
